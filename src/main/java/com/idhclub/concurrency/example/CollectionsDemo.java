@@ -10,7 +10,7 @@ import java.util.List;
 public class CollectionsDemo {
     public static List<Integer> list = new ArrayList<>();
 
-    public static void test1() {
+    public static void test1(){
         for (Integer i : list
                 ) {
             if (i.equals(5)) {
